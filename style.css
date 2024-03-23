@@ -68,3 +68,76 @@ a{
     border-radius: 8px;
     color: #fff;
 }
+
+#sobre{
+    width: 100%;
+    height: 407;
+    padding: 78px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#sobre > span{
+    width: 90px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #8E2424;
+}
+
+#sobre > h1{
+    width: 652px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #101828;
+}
+
+#sobre > p{
+    width: 791px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+}
+
+#metrica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 288;
+    padding-bottom: 78px;
+}
+
+.metrica_item{
+    width: 280px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.valor{
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.descricao{
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+}
+.metrica_item > p{
+    width: 240px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
+    text-align: justify;
+    line-height: 20px;
+}
