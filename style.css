@@ -141,3 +141,38 @@ a{
     text-align: justify;
     line-height: 20px;
 }
+
+#vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 78px 32px 0 32px;
+    gap: 24px;
+}
+
+#vagas > span{
+    font-weight: 600;
+    font-size: 24px;
+    padding: 5px 10px;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color: #8E2424;
+}
+
+#vagas > h2{
+    font-weight: 600;
+    font-size: 36px;
+    color: #101828;
+}
+
+#vagas > p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+}
+
+#vagas > img{
+    width: 1216px;
+    height: 400px;
+}
